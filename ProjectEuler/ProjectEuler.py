@@ -1007,13 +1007,13 @@ pands = filter(lambda x: isRare(x),pands)
 print pands
 print sum(pands)
 
-'''""" #44 Pentagon numbers"""
+""" #44 Pentagon numbers"""
 
 pentagons = {}
 
 def Max(l):
     if l == []:
-        return 0#9223372036854775807
+        return 0
     else:
         return max(l)
 
@@ -1028,8 +1028,6 @@ def isPentagonal(penNum):
             return True
 
     return False
-        
-
 
 def pentagonAt(n):
     global pentagons
@@ -1046,3 +1044,28 @@ for a in xrange(1,10000):
         if isPentagonal(pentagonAt(a) + pentagonAt(b)) and isPentagonal(pentagonAt(a) - pentagonAt(b)):
             print pentagonAt(a) - pentagonAt(b)
             break
+
+""" #45 Triangular, pentagonal, and hexagonal"""
+
+P = set()
+T = set()
+H = set()
+
+def p(n):
+    return n* (n + 1)/2
+
+def t(n):
+    return n* (3*n - 1)/2
+
+def h(n):
+    return n* (2*n - 1)
+
+for i in range(999999):
+    P.add(p(i))
+    T.add(t(i))
+    H.add(h(i))
+    if len(P.intersection(T.intersection(H))) > 3:
+        print P.intersection(T.intersection(H))
+        break
+
+'''""" #46 Goldbach's other conjecture"""
