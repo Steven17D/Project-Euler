@@ -1,0 +1,2 @@
+""" #49 Prime permutations"""
+
