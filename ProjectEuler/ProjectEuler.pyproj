@@ -5,8 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9dcae3cd-b821-47f0-8455-f2eb2c4a5859</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>50. Consecutive prime sum.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,7 +22,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="1. Multiples of 3 and 5.py" />
+    <Compile Include="01. Multiples of 3 and 5.py" />
+    <Compile Include="02. Even Fibonacci numbers.py" />
+    <Compile Include="03. Largest prime factor.py" />
+    <Compile Include="04. Largest palindrome product.py" />
+    <Compile Include="05. Smallest multiple.py" />
+    <Compile Include="06. Sum square difference.py" />
+    <Compile Include="07. 1001st prime.py" />
+    <Compile Include="08. Largest product in a series.py" />
+    <Compile Include="09. Special Pythagorean triplet.py" />
     <Compile Include="10. Summation of primes.py" />
     <Compile Include="11. Largest product in a grid.py" />
     <Compile Include="12. Highly divisible triangular number.py" />
@@ -34,7 +41,6 @@
     <Compile Include="17. Number letter counts.py" />
     <Compile Include="18. Maximum path sum I.py" />
     <Compile Include="19. Counting Sundays.py" />
-    <Compile Include="2. Even Fibonacci numbers.py" />
     <Compile Include="20. Factorial digit sum.py" />
     <Compile Include="21. Amicable numbers.py" />
     <Compile Include="22. Names scores.py" />
@@ -45,7 +51,6 @@
     <Compile Include="27. Quadratic primes.py" />
     <Compile Include="28. Number spiral diagonals.py" />
     <Compile Include="29. Distinct powers.py" />
-    <Compile Include="3. Largest prime factor.py" />
     <Compile Include="30. Digit fifth powers.py" />
     <Compile Include="31. Coin sums.py" />
     <Compile Include="32. Pandigital products.py" />
@@ -56,7 +61,6 @@
     <Compile Include="37. Truncatable primes.py" />
     <Compile Include="38. Pandigital multiples.py" />
     <Compile Include="39. Integer right triangles.py" />
-    <Compile Include="4. Largest palindrome product.py" />
     <Compile Include="40. Champernowne%27s constant.py" />
     <Compile Include="41. Pandigital prime.py" />
     <Compile Include="42. Coded triangle numbers.py" />
@@ -69,13 +73,14 @@
     <Compile Include="49. Prime permutations.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="5. Smallest multiple.py" />
-    <Compile Include="6. Sum square difference.py" />
-    <Compile Include="7. 1001st prime.py" />
-    <Compile Include="8. Largest product in a series.py" />
-    <Compile Include="9. Special Pythagorean triplet.py" />
+    <Compile Include="primeGen.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="50. Consecutive prime sum.py">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="p022_names.txt" />
     <Content Include="p042_words.txt" />
   </ItemGroup>
