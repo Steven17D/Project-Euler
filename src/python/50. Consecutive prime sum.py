@@ -4,7 +4,7 @@ import cPickle as pickle
 
 def isPrime(n):
     if not hasattr(isPrime,"primes"):
-        isPrime.primes = pickle.load(open("primesTillMillion.p","rb"))
+        isPrime.primes = pickle.load(open("primes_till_million","rb"))
     if n in isPrime.primes:
         return True
     for i in range(2,int(n**0.5)+1):

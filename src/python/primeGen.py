@@ -14,4 +14,4 @@ def isPrime(n):
 for i in range(2,1000000):
     isPrime(i)
 
-pickle.dump(isPrime.primes,open("primesTillMillion.p","wb"))
+pickle.dump(isPrime.primes,open("primes_till_million","wb"))
